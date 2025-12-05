@@ -9,6 +9,8 @@ This project demonstrates the implementation of a Library Management System usin
 It includes database creation, CRUD operations, analytical queries, CTAS, and stored procedures.  
 The goal is to apply core SQL concepts to manage and analyze a real-world library workflow.
 
+<img width="1007" height="523" alt="{4414666D-7FEF-4F5F-936C-057D19705279}" src="https://github.com/user-attachments/assets/7c17ec4f-28f9-4743-81a2-5fa8e78ec597" />
+
 ---
 
 ## Objectives
@@ -25,6 +27,9 @@ The goal is to apply core SQL concepts to manage and analyze a real-world librar
 ## Project Structure
 
 ### Database Setup
+
+<img width="906" height="664" alt="{2EEE94D7-EC27-4B53-A09D-08C7E0509E29}" src="https://github.com/user-attachments/assets/d88e938d-c5f4-4eca-8bd8-e8439ceb4cf1" />
+
 - Database named **library_db** created.
 - Six main transactional tables designed with keys & constraints:
   - Branch
@@ -47,7 +52,7 @@ Performed end-to-end data handling:
 - Updated records (ex: addresses)
 - Deleted outdated issue records
 
-✔ Validated full command over data manipulation in SQL
+Validated full command over data manipulation in SQL
 
 ---
 
@@ -59,7 +64,7 @@ Generated analytical tables such as:
 - **Active Members** – recent usage activity in the library
 - **Expensive Books** – books above a rental price threshold
 
-✔ Supports business analysis through SQL-driven insights
+Supports business analysis through SQL-driven insights
 
 ---
 
@@ -73,7 +78,7 @@ Advanced queries written to:
 - Find productive employees based on book issues handled
 - Provide manager-wise branch details
 
-✔ Demonstrates problem-solving using JOINs, GROUP BY, HAVING, and Date Functions
+Demonstrates problem-solving using JOINs, GROUP BY, HAVING, and Date Functions
 
 ---
 
@@ -86,8 +91,8 @@ Automated workflows implemented for:
 | `issue_book` | Checks availability & marks book as issued |
 | `add_return_records` | Logs return entry & updates book status to available |
 
-✔ Ensures smooth operational flow similar to real library systems  
-✔ Reduces manual work and ensures data consistency
+Ensures smooth operational flow similar to real library systems  
+Reduces manual work and ensures data consistency
 
 ---
 
@@ -100,7 +105,7 @@ Automated workflows implemented for:
 - Active members list
 - Overdue and pending returns
 
-✔ Shows ability to convert data into meaningful business insights
+Shows ability to convert data into meaningful business insights
 
 ---
 
